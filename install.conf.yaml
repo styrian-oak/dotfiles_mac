@@ -1,6 +1,8 @@
 - defaults:
     link:
       relink: true
+    create:
+      mode: 0700
 
 - clean: ['~']
 
@@ -12,8 +14,10 @@
     ~/.zshrc:
 
 - create:
-    ~/1_Code:
-      mode: 0700
+    - ~/1_Code
+    - ~/2_System
+    - ~/3_Unterlagen
+    - ~/4_Multimedia
 
 - shell:
     - command: ./setup_homebrew.zsh
