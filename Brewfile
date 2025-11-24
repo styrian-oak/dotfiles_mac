@@ -1,3 +1,5 @@
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
 # Tool that bootstraps your dotfiles
 brew "dotbot"
 # Password manager app
