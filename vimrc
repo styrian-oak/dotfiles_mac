@@ -30,7 +30,7 @@ syntax on               " Enable synax highlighting
 set incsearch           " Enable incremental search
 set hlsearch            " Enable highlight search
 set termwinsize=12x0    " Set terminal size
-set splitbelow          " Always split below"
+set splitbelow          " Always split below
 set mouse=a             " Enable mouse drag on window splits
 set tabstop=4           " How many columns of whitespace a \t is worth
 set shiftwidth=4        " How many columns of whitespace a “level of indentation” is worth

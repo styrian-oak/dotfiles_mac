@@ -7,6 +7,9 @@
 - clean: ['~']
 
 - link:
+    ~/.config/bat:
+      create: true
+      path: config/bat
     ~/.gitconfig:
     ~/.vimrc:
     ~/.zprofile:
