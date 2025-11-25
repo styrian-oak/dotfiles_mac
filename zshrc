@@ -18,6 +18,7 @@ alias la='ls -AFG'
 alias ll='ls -lAFhG'
 alias bbd='brew bundle dump --global --force --describe'
 alias dotbot='dotbot --verbose -c ~/.dotfiles/install.conf.yaml'
+alias k='calcurse'
 
 # https://codegolf.stackexchange.com/questions/96334/export-the-path-variable-line-by-line/96471#96471
 alias trail='<<<${(F)path}'
