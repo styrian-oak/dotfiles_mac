@@ -4,6 +4,8 @@ brew "bat"
 brew "calcurse"
 # Tool that bootstraps your dotfiles
 brew "dotbot"
+# Media player based on MPlayer and mplayer2
+brew "mpv"
 # Password manager app
 cask "keepassxc"
 # Web browser focused on privacy and on minimizing tracking and fingerprinting
