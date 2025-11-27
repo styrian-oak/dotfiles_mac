@@ -6,6 +6,8 @@ brew "calcurse"
 brew "dotbot"
 # Media player based on MPlayer and mplayer2
 brew "mpv"
+# RSS/Atom feed reader for text terminals
+brew "newsboat"
 # Password manager app
 cask "keepassxc"
 # Web browser focused on privacy and on minimizing tracking and fingerprinting
