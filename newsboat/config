@@ -1,1 +1,2 @@
 auto-reload yes
+reload-threads 100
