@@ -8,6 +8,8 @@ brew "dotbot"
 brew "mpv"
 # RSS/Atom feed reader for text terminals
 brew "newsboat"
+# Internet file retriever
+brew "wget"
 # Password manager app
 cask "keepassxc"
 # Web browser focused on privacy and on minimizing tracking and fingerprinting
