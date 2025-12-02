@@ -14,5 +14,7 @@ brew "wget"
 cask "keepassxc"
 # Web browser focused on privacy and on minimizing tracking and fingerprinting
 cask "mullvad-browser"
+# Orchestrates virtual Ubuntu instances
+cask "multipass"
 # Email client
 cask "tuta-mail"
