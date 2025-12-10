@@ -14,6 +14,9 @@
       create: true
       path: config/calcurse
     ~/.gitconfig:
+    ~/.gnupg/gpg-agent.conf:
+      create: true
+      path: gnupg/gpg-agent.conf
     ~/.newsboat:
       create: true
       path: newsboat
