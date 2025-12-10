@@ -10,6 +10,8 @@ brew "gnupg"
 brew "mpv"
 # RSS/Atom feed reader for text terminals
 brew "newsboat"
+# Password manager
+brew "pass"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Internet file retriever
