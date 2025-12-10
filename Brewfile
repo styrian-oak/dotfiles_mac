@@ -4,10 +4,14 @@ brew "bat"
 brew "calcurse"
 # Tool that bootstraps your dotfiles
 brew "dotbot"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
 # Media player based on MPlayer and mplayer2
 brew "mpv"
 # RSS/Atom feed reader for text terminals
 brew "newsboat"
+# Pinentry for GPG on Mac
+brew "pinentry-mac"
 # Internet file retriever
 brew "wget"
 # Password manager app
