@@ -12,11 +12,12 @@ eval "$(ssh-agent -s)"
 << EOF > ~/.ssh/config
 Host github.com
   AddKeysToAgent yes
+  UseKeychain yes
   IdentityFile ~/.ssh/id_ed25519
 EOF
 
 # Add private key to ssh-agent 
-ssh-add ~/.ssh/id_ed25519
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 
 # Copy public key and add to github.com > Settings > SSH and GPG keys
 pbcopy < ~/.ssh/id_ed25519.pub
