@@ -30,6 +30,7 @@ PROMPT='
 
 
 # Add Locations to $PATH Variable
+export PATH="$HOME/.dotfiles/scripts:$PATH"
 
 
 # Write Handy Functions
