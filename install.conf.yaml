@@ -13,6 +13,8 @@
     ~/.config/calcurse:
       create: true
       path: config/calcurse
+    '~/Library/Application Support/Firefox/Profiles/02eeo1w7.default-release/user-overrides.js':
+      path: firefox/user-overrides.js
     ~/.gitconfig:
     ~/.gnupg/gpg-agent.conf:
       create: true
