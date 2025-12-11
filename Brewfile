@@ -4,7 +4,7 @@ brew "bat"
 brew "calcurse"
 # Tool that bootstraps your dotfiles
 brew "dotbot"
-# GNU Pretty Good Privacy (PGP) package
+# GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Media player based on MPlayer and mplayer2
 brew "mpv"
@@ -16,8 +16,6 @@ brew "pass"
 brew "pinentry-mac"
 # Internet file retriever
 brew "wget"
-# Password manager app
-cask "keepassxc"
 # Web browser focused on privacy and on minimizing tracking and fingerprinting
 cask "mullvad-browser"
 # Orchestrates virtual Ubuntu instances
