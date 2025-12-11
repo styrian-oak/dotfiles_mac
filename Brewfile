@@ -16,6 +16,8 @@ brew "pass"
 brew "pinentry-mac"
 # Internet file retriever
 brew "wget"
+# Web browser
+cask "firefox"
 # Web browser focused on privacy and on minimizing tracking and fingerprinting
 cask "mullvad-browser"
 # Orchestrates virtual Ubuntu instances
