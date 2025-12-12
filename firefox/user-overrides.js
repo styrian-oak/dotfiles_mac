@@ -19,3 +19,11 @@ user_pref("browser.newtabpage.activity-stream.section.highlights.includePocket",
 // Disable Firefox Ads
 user_pref("identity.fxaccounts.enabled", false);
 user_pref("browser.urlbar.groupLabels.enabled", false);
+
+// https://codeberg.org/Liassica/user-overrides
+/* Disable credit card and address autofill. */
+user_pref("extensions.formautofill.addresses.enabled", false);
+user_pref("extensions.formautofill.creditCards.enabled", false);
+user_pref("extensions.formautofill.heuristics.enabled", false);
+/* Disable Firefox password saving for use with a different password manager */
+user_pref("signon.rememberSignons", false);
