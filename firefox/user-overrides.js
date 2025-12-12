@@ -27,3 +27,7 @@ user_pref("extensions.formautofill.creditCards.enabled", false);
 user_pref("extensions.formautofill.heuristics.enabled", false);
 /* Disable Firefox password saving for use with a different password manager */
 user_pref("signon.rememberSignons", false);
+
+// https://xnacly.me/posts/2023/disable-firefox-translation
+user_pref("browser.translations.automaticallyPopup", false);
+user_pref("browser.translations.enable", false);
