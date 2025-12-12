@@ -18,6 +18,8 @@ brew "pinentry-mac"
 brew "wget"
 # Web browser
 cask "firefox"
+# Website and application blocker
+cask "focus"
 # Web browser focused on privacy and on minimizing tracking and fingerprinting
 cask "mullvad-browser"
 # Orchestrates virtual Ubuntu instances
