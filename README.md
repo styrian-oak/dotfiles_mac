@@ -1,6 +1,15 @@
 I'm learning about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz).
 
-# SSH instructions
+# Restore Instructions
+1. `xcode-select --install` (Command Line Tools are required for Git and Homebrew)
+2. `git clone https://github.com/eieioxyz/dotfiles_macos.git ~/.dotfiles`. We'll start with `https` but switch to `ssh` after everything is installed.
+3. `cd ~/.dotfiles`
+4. Do one last Software Audit by editing [Brewfile](Brewfile) directly.
+6. [`./setup.zsh`](setup.zsh)
+7. Restart computer.
+8. [Generate ssh key](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh), add to GitHub, and switch remotes.
+
+## SSH instructions
 ```zsh
 # Generate SSH key in default location (~/.ssh/config)
 ssh-keygen -t ed25519 -C "242596607+styrian-oak@users.noreply.github.com"
