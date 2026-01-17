@@ -24,5 +24,7 @@ cask "focus"
 cask "mullvad-browser"
 # Orchestrates virtual Ubuntu instances
 cask "multipass"
+# Web browser focusing on security
+cask "tor-browser"
 # Email client
 cask "tuta-mail"
