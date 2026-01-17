@@ -38,3 +38,7 @@ ssh -T git@github.com
 # Switch from HTTPS to SSH
 git remote set-url origin git@github.com:styrian-oak/dotfiles_mac.git
 ```
+
+## Generate new GPG key
+- `gpg-connect-agent reloadagent /bye`
+- `gpg --full-generate-key`
