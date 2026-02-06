@@ -13,6 +13,7 @@ call plug#begin()
 
 Plug 'morhetz/gruvbox'
     let g:gruvbox_contrast_dark = 'hard'
+    let g:gruvbox_guisp_fallback = 'bg'  " This is necessary for spell check to work with Gruvbox
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
     let g:AutoPairsShortcutToggle = '<C-P>' " Toggle Auto Pairs with Crrl+P
@@ -38,3 +39,6 @@ set expandtab           " Use spaces when tabbing
 
 set background=dark     " Set background
 colorscheme gruvbox     " Set color scheme
+
+" https://www.vimfromscratch.com/articles/spell-and-grammar-vim
+autocmd FileType markdown,text setlocal spell spelllang=de,en
