@@ -18,6 +18,8 @@ Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
     let g:AutoPairsShortcutToggle = '<C-P>' " Toggle Auto Pairs with Crrl+P
 Plug 'ervandew/supertab'
+Plug 'junegunn/goyo.vim'
+    let g:goyo_width = 50                   " Set width to 50 (default is 80)
 
 call plug#end()
 
