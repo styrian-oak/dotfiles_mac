@@ -14,12 +14,20 @@ brew "newsboat"
 brew "pass"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
+# Vi 'workalike' with many additional features
+brew "vim"
 # Internet file retriever
 brew "wget"
+# Tool to flash OS images to SD cards & USB drives
+cask "balenaetcher"
 # Web browser
 cask "firefox"
 # Website and application blocker
 cask "focus"
+# Password manager app
+cask "keepassxc"
+# File system integration
+cask "macfuse"
 # Web browser focused on privacy and on minimizing tracking and fingerprinting
 cask "mullvad-browser"
 # Orchestrates virtual Ubuntu instances
@@ -28,3 +36,7 @@ cask "multipass"
 cask "tor-browser"
 # Email client
 cask "tuta-mail"
+# Virtual machines UI using QEMU
+cask "utm"
+# Disk encryption software focusing on security based on TrueCrypt
+cask "veracrypt"
