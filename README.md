@@ -1,5 +1,11 @@
 I'm learning about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz).
 
+Files that need to be backed up manually before you change computers:
+```
+~/.local/share/calcurse/*
+~/.newsboat/urls
+```
+
 # Restore Instructions
 1. `xcode-select --install` (Command Line Tools are required for Git and Homebrew)
 2. `git clone https://github.com/eieioxyz/dotfiles_macos.git ~/.dotfiles`. We'll start with `https` but switch to `ssh` after everything is installed.
