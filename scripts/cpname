@@ -1,3 +1,0 @@
-#!/usr/bin/env zsh
-
-pass "$@" | grep Username | awk '{print $NF}' | pbcopy
