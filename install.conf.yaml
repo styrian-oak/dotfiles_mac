@@ -28,10 +28,11 @@
     ~/.zshrc:
 
 - create:
-    - ~/1_Code
+    - ~/1_Arbeit
     - ~/2_System
     - ~/3_Unterlagen
-    - ~/4_Multimedia
+    - ~/4_Notizen
+    - ~/7_Archiv
 
 - shell:
     - command: ./setup_homebrew.zsh
