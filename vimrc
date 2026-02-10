@@ -43,4 +43,4 @@ set background=dark     " Set background
 colorscheme gruvbox     " Set color scheme
 
 " https://www.vimfromscratch.com/articles/spell-and-grammar-vim
-autocmd FileType markdown,text setlocal spell spelllang=de,en
+autocmd FileType markdown,text setlocal spell spelllang=de
