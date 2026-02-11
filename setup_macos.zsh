@@ -16,8 +16,6 @@ defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 defaults write com.apple.finder ShowPathbar -bool true
 # Show status bar
 defaults write com.apple.finder ShowStatusBar -bool true
-# Show hidden files
-defaults write com.apple.finder AppleShowAllFiles true
 # Show filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 # Search the current folder by default
