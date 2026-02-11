@@ -22,6 +22,8 @@ brew "wget"
 cask "firefox"
 # Website and application blocker
 cask "focus"
+# Utility to hide menu bar items
+cask "hiddenbar"
 # Web browser focused on privacy and on minimizing tracking and fingerprinting
 cask "mullvad-browser"
 # Orchestrates virtual Ubuntu instances
