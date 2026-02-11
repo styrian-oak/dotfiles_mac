@@ -26,8 +26,6 @@ cask "focus"
 cask "hiddenbar"
 # Web browser focused on privacy and on minimizing tracking and fingerprinting
 cask "mullvad-browser"
-# Orchestrates virtual Ubuntu instances
-cask "multipass"
 # Web browser focusing on security
 cask "tor-browser"
 # Email client
