@@ -18,6 +18,8 @@ brew "pinentry-mac"
 brew "vim"
 # Internet file retriever
 brew "wget"
+# Utility that prevents the system from going to sleep
+cask "domzilla-caffeine"
 # Web browser
 cask "firefox"
 # Website and application blocker
