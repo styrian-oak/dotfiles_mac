@@ -44,3 +44,4 @@ colorscheme gruvbox     " Set color scheme
 
 " https://www.vimfromscratch.com/articles/spell-and-grammar-vim
 autocmd FileType markdown,text setlocal spell spelllang=de
+set spellcapcheck=      " Disable check for capitalization at beginning of sentence
