@@ -10,6 +10,8 @@ brew "gnupg"
 brew "mpv"
 # RSS/Atom feed reader for text terminals
 brew "newsboat"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
 # Password manager
 brew "pass"
 # Pinentry for GPG on Mac
