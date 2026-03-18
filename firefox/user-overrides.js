@@ -7,7 +7,7 @@ user_pref("browser.urlbar.suggest.trending", false);
 user_pref("browser.urlbar.suggest.weather", false);
 user_pref("browser.urlbar.suggest.engines", false);
 user_pref("browser.urlbar.suggest.history", false);
-user_pref("browser.urlbar.suggest.bookmark", true);
+user_pref("browser.urlbar.suggest.bookmark", false);
 user_pref("browser.urlbar.suggest.bestmatch", false);
 user_pref("browser.urlbar.suggest.addons", false);
 user_pref("browser.urlbar.suggest.pocket", false);
