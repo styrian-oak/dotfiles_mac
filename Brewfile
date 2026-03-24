@@ -16,6 +16,8 @@ brew "pandoc"
 brew "pass"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
+# Official tldr client written in Rust
+brew "tlrc"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Internet file retriever
