@@ -53,5 +53,5 @@ Files that need to be backed up manually before you change computers:
 
 ## Additional steps
 
-- Copy `gnupg/` and `password-store` from the backup to new machine
+- Copy `gnupg/` and `password-store/` from the backup to new machine
 - Set up Arkenfox
