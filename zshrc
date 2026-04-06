@@ -45,7 +45,7 @@ PROMPT='
 
 
 # Add Locations to $PATH Variable
-export PATH="$HOME/.dotfiles/scripts:$PATH"
+export PATH=$PATH:$HOME/go/bin
 
 
 # Write Handy Functions
