@@ -6,6 +6,8 @@ brew "calcurse"
 brew "dotbot"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
 # Media player based on MPlayer and mplayer2
 brew "mpv"
 # RSS/Atom feed reader for text terminals
