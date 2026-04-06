@@ -10,8 +10,6 @@ brew "gnupg"
 brew "mpv"
 # RSS/Atom feed reader for text terminals
 brew "newsboat"
-# Swiss-army knife of markup format conversion
-brew "pandoc"
 # Password manager
 brew "pass"
 # Pinentry for GPG on Mac
@@ -22,8 +20,6 @@ brew "tlrc"
 brew "vim"
 # Internet file retriever
 brew "wget"
-# Utility that prevents the system from going to sleep
-cask "domzilla-caffeine"
 # Web browser
 cask "firefox"
 # Website and application blocker
