@@ -50,3 +50,8 @@ Files that need to be backed up manually before you change computers:
     # Switch from HTTPS to SSH
     git remote set-url origin git@github.com:styrian-oak/dotfiles_mac.git
     ```
+
+## Additional steps
+
+- Copy `gnupg/` and `password-store` from the backup to new machine
+- Set up Arkenfox
