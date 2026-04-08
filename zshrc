@@ -20,6 +20,7 @@ alias ll='ls -lAFhG'
 alias bbd='brew bundle dump --global --force --describe'
 alias dotbot='dotbot --verbose -c ~/.dotfiles/install.conf.yaml'
 alias k='calcurse'
+alias nb='newsboat'
 # Git
 alias gc='git commit -m'
 alias gca='git commit -a -m'
