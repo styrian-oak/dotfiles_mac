@@ -1,3 +1,5 @@
 [user]
 	name = styrian-oak
 	email = 242596607+styrian-oak@users.noreply.github.com
+[init]
+	defaultBranch = main
