@@ -4,6 +4,8 @@ brew "bat"
 brew "calcurse"
 # Tool that bootstraps your dotfiles
 brew "dotbot"
+# GitHub command-line tool
+brew "gh"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
@@ -36,3 +38,4 @@ cask "tor-browser"
 cask "tuta-mail"
 # Virtual machines UI using QEMU
 cask "utm"
+go "github.com/bootdotdev/bootdev"
