@@ -34,6 +34,8 @@ cask "focus"
 cask "hiddenbar"
 # Web browser focused on privacy and on minimizing tracking and fingerprinting
 cask "mullvad-browser"
+# JDK from the Eclipse Foundation (Adoptium)
+cask "temurin@25"
 # Web browser focusing on security
 cask "tor-browser"
 # Email client
