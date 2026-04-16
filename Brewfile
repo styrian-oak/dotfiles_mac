@@ -10,12 +10,14 @@ brew "gh"
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
+# Interactive environments for writing and running code
+brew "jupyterlab"
 # Media player based on MPlayer and mplayer2
 brew "mpv"
 # RSS/Atom feed reader for text terminals
 brew "newsboat"
-# Swiss-army knife of markup format conversion
-brew "pandoc"
 # Password manager
 brew "pass"
 # Pinentry for GPG on Mac
