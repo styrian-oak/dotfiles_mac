@@ -14,8 +14,8 @@ export MYVIMRC=~/.vimrc
 
 
 # Create Aliases
-alias l='ls -FG'
-alias la='ls -AFG'
+alias l='ls -FG1'
+alias la='ls -AFG1'
 alias ll='ls -lAFhG'
 alias bbd='brew bundle dump --global --force --describe'
 alias dotbot='dotbot --verbose -c ~/.dotfiles/install.conf.yaml'
