@@ -22,6 +22,8 @@ brew "pass"
 brew "pinentry-mac"
 # Official tldr client written in Rust
 brew "tlrc"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Internet file retriever
