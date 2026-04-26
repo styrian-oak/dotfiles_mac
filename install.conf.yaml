@@ -13,7 +13,7 @@
     ~/.config/calcurse:
       create: true
       path: config/calcurse
-    '~/Library/Application Support/Firefox/Profiles/cp7om77z.default-release/user-overrides.js':
+    '~/Library/Application Support/Firefox/Profiles/qzrycho4.default-release/user-overrides.js':
       path: firefox/user-overrides.js
     ~/.gitconfig:
     ~/.gnupg/gpg-agent.conf:
@@ -27,12 +27,12 @@
     ~/.zshenv:
     ~/.zshrc:
 
-- create:
-    - ~/1_Arbeit
-    - ~/2_System
-    - ~/3_Unterlagen
-    - ~/4_Notizen
-    - ~/7_Archiv
+#- create:
+#    - ~/1_Arbeit
+#    - ~/2_System
+#    - ~/3_Unterlagen
+#    - ~/4_Notizen
+#    - ~/7_Archiv
 
 - shell:
     - command: ./setup_homebrew.zsh
