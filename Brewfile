@@ -9,11 +9,9 @@ brew "gh"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
-brew "go"
+#brew "go"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
-# Interactive environments for writing and running code
-brew "jupyterlab"
 # Media player based on MPlayer and mplayer2
 brew "mpv"
 # RSS/Atom feed reader for text terminals
@@ -34,16 +32,12 @@ cask "firefox"
 cask "focus"
 # Utility to hide menu bar items
 cask "hiddenbar"
-# Java IDE by JetBrains
-cask "intellij-idea"
 # Web browser focused on privacy and on minimizing tracking and fingerprinting
 cask "mullvad-browser"
-# JDK from the Eclipse Foundation (Adoptium)
-cask "temurin@25"
 # Web browser focusing on security
 cask "tor-browser"
 # Email client
 cask "tuta-mail"
 # Virtual machines UI using QEMU
 cask "utm"
-go "github.com/bootdotdev/bootdev"
+#go "github.com/bootdotdev/bootdev"
