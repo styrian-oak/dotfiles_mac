@@ -20,6 +20,8 @@ brew "openjdk"
 brew "pass"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
+# JVM-based programming language
+brew "scala"
 # Official tldr client written in Rust
 brew "tlrc"
 # Extremely fast Python package installer and resolver, written in Rust
