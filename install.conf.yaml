@@ -43,3 +43,7 @@
       stdin: true
       stdout: true
       stderr: true
+    - command: ./setup_openjdk.zsh
+      stdin: true
+      stdout: true
+      stderr: true
