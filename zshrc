@@ -8,6 +8,7 @@ export MANPAGER="sh -c 'awk '\''{ gsub(/\x1B\[[0-9;]*m/, \"\", \$0); gsub(/.\x08
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 export HOMEBREW_BUNDLE_FILE_GLOBAL=~/.dotfiles/Brewfile
 export MYVIMRC=~/.vimrc
+export JAVA_HOME=$(/usr/libexec/java_home)
 
 
 # Change ZSH Options
