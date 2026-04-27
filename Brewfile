@@ -4,8 +4,6 @@ brew "bat"
 brew "calcurse"
 # Tool that bootstraps your dotfiles
 brew "dotbot"
-# GitHub command-line tool
-brew "gh"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Swiss-army knife of markup format conversion
