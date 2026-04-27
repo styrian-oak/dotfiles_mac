@@ -14,6 +14,8 @@ brew "jupyterlab"
 brew "mpv"
 # RSS/Atom feed reader for text terminals
 brew "newsboat"
+# Development kit for the Java programming language
+brew "openjdk"
 # Password manager
 brew "pass"
 # Pinentry for GPG on Mac
