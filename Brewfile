@@ -10,12 +10,14 @@ brew "gnupg"
 brew "pandoc"
 # Interactive environments for writing and running code
 brew "jupyterlab"
+# Development kit for the Java programming language
+brew "openjdk"
+# Java-based project management
+brew "maven"
 # Media player based on MPlayer and mplayer2
 brew "mpv"
 # RSS/Atom feed reader for text terminals
 brew "newsboat"
-# Development kit for the Java programming language
-brew "openjdk"
 # Password manager
 brew "pass"
 # Pinentry for GPG on Mac
