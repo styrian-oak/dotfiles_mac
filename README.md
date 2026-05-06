@@ -4,7 +4,8 @@ I ***learned*** about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz
 
 ## Backup
 
-Files that need to be backed up manually before you change computers:
+- Copy the folders `1_`, `2_`, `3_`, `4_`, and `5_` to an external hard drive
+- Additional Files that need to be backed up manually:
 ```
 ~/.gnupg/
 ~/.password-store/
