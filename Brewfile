@@ -36,8 +36,6 @@ cask "firefox"
 cask "focus"
 # Utility to hide menu bar items
 cask "hiddenbar"
-# Java IDE by JetBrains
-cask "intellij-idea"
 # Web browser focused on privacy and on minimizing tracking and fingerprinting
 cask "mullvad-browser"
 # Web browser focusing on security
