@@ -19,9 +19,10 @@ I ***learned*** about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz
 2. `git clone https://github.com/styrian-oak/dotfiles_mac.git ~/.dotfiles`. We'll start with `https` but switch to `ssh` after everything is installed.
 3. `cd ~/.dotfiles`
 4. Do one last Software Audit by editing [Brewfile](Brewfile) directly.
-5. [`./setup.zsh`](setup.zsh)
-6. Restart computer.
-7. [Generate ssh key](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh), add to GitHub, and switch remotes.
+5. Comment out FF profile in `install.conf.yaml`
+6. [`./setup.zsh`](setup.zsh)
+7. Restart computer.
+8. [Generate ssh key](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh), add to GitHub, and switch remotes.
 
     ```zsh
     # Generate SSH key in default location (~/.ssh/config)
@@ -52,7 +53,14 @@ I ***learned*** about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz
     git remote set-url origin git@github.com:styrian-oak/dotfiles_mac.git
     ```
 
-## Additional steps
+## Setup Pass (with GPG)
+- Copy `~/.gnupg/` and `~/.password-store/` from external hard drive to `~`
+- Make sure permissions are 0700
+- `gpg --list-keys` to get your GPG-ID
+- Check if Pass works
+- Save passphrase in Keychain when prompted
 
-- Copy `gnupg/` and `password-store/` from the backup to new machine
+---
+
+- Copy the rest of your data from the hard drive
 - Set up Arkenfox
