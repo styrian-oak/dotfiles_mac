@@ -4,6 +4,8 @@ brew "bat"
 brew "calcurse"
 # Tool that bootstraps your dotfiles
 brew "dotbot"
+# Embeddable SQL OLAP Database Management System
+brew "duckdb"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Swiss-army knife of markup format conversion
