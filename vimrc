@@ -11,7 +11,7 @@ endif
 " ------------------------------------------------------------
 call plug#begin()
 
-Plug 'morhetz/gruvbox'
+Plug 'gruvbox-community/gruvbox'
     let g:gruvbox_contrast_dark = 'hard'
     let g:gruvbox_guisp_fallback = 'bg'  " This is necessary for spell check to work with Gruvbox
 Plug 'sheerun/vim-polyglot'
