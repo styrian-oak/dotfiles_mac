@@ -15,11 +15,13 @@ Plug 'gruvbox-community/gruvbox'
     let g:gruvbox_contrast_dark = 'hard'
     let g:gruvbox_guisp_fallback = 'bg'  " This is necessary for spell check to work with Gruvbox
 Plug 'sheerun/vim-polyglot'
+    let g:polyglot_disabled = ['java']
 Plug 'jiangmiao/auto-pairs'
     let g:AutoPairsShortcutToggle = '<C-P>' " Toggle Auto Pairs with Crrl+P
 Plug 'ervandew/supertab'
 Plug 'junegunn/goyo.vim'
     let g:goyo_width = 50                   " Set width to 50 (default is 80)
+Plug 'uiiaoo/java-syntax.vim'
 
 call plug#end()
 
