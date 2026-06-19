@@ -34,6 +34,8 @@ brew "uv"
 brew "vim"
 # Internet file retriever
 brew "wget"
+# OpenAI's Codex desktop app for managing coding agents
+cask "codex-app"
 # Web browser
 cask "firefox"
 # Website and application blocker
