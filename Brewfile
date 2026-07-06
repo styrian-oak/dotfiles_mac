@@ -6,8 +6,6 @@ brew "calcurse"
 brew "dotbot"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
-# Swiss-army knife of markup format conversion
-brew "pandoc"
 # Development kit for the Java programming language
 brew "openjdk"
 # Java-based project management
@@ -16,6 +14,8 @@ brew "maven"
 brew "mpv"
 # RSS/Atom feed reader for text terminals
 brew "newsboat"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
 # Password manager
 brew "pass"
 # Pinentry for GPG on Mac
@@ -28,6 +28,8 @@ brew "uv"
 brew "vim"
 # Internet file retriever
 brew "wget"
+# Compact TeX distribution as alternative to the full TeX Live / MacTeX
+cask "basictex"
 # Web browser
 cask "firefox"
 # Website and application blocker
