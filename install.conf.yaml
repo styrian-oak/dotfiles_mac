@@ -19,6 +19,9 @@
     ~/.gnupg/gpg-agent.conf:
       create: true
       path: gnupg/gpg-agent.conf
+    ~/.jupyter:
+      create: true
+      path: jupyter
     ~/.newsboat:
       create: true
       path: newsboat
