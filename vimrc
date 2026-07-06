@@ -22,6 +22,7 @@ Plug 'ervandew/supertab'
 Plug 'junegunn/goyo.vim'
     let g:goyo_width = 50                   " Set width to 50 (default is 80)
 Plug 'uiiaoo/java-syntax.vim'
+Plug 'tpope/vim-surround'
 
 call plug#end()
 
