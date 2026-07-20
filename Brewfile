@@ -1,5 +1,7 @@
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Music library manager and tagger
+brew "beets"
 # Text-based personal organizer
 brew "calcurse"
 # Tool that bootstraps your dotfiles
